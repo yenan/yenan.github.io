@@ -1,0 +1,698 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+<meta name="description" content="Nan Ye's Homepage">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="Ye Nan, Nan Ye, machine learning, planning under uncertainty, POMDP, sequential decision making">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125717656-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-125717656-1');
+	</script>
+
+	<style>
+		* { 
+			font-family: "Josefin Sans", sans-serif;
+			color: #545454;
+		}
+
+		a { text-decoration: none; color:#c65911;}
+		
+		.menuitem { 
+			text-decoration: none; 
+			#color:#AAAA55;
+			color:#FFFFFF;
+		}
+
+		#header {
+			width: 100%; 
+			opacity: 1; 
+			background-color: #EEEEEE; 
+			box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+			background-size: 100% 100%;
+			padding: 0px;
+			margin-right: 0px;
+		}
+
+		.content {
+			padding-top: 20px;
+			width: 61vw; 
+			margin: auto; 
+			line-height: 25px;
+			#font-size: 11pt;
+		}
+
+		.sectiontitle {
+			background-color: gray; 
+			width: 100%; 
+			color: white; 
+			text-indent: 20px;
+			padding-bottom: 3px;
+			padding-top: 3px;
+		}
+
+		.sectioncontent {
+			#display: none;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		li:not(:last-child) {
+			margin-bottom: 8px;
+		}
+	</style>
+
+	<title>Nan Ye's Homepage</title>
+</head>
+
+<body style="background-color:#EEEEEE; margin: 0px">
+
+	<div style="width:100%">
+		<!-- anchor -->
+		<div style="width: 61vw; margin: auto; position: relative"> 
+			<div style="float:left; position: absolute; left:-16vw; top:50px; display:inline-block">
+			
+				<div style="width:17vw; margin:auto">
+					<img style="border-radius:50%; width:12vw" src="yn.jpg">
+				</div>
+
+				<br>
+
+				<div><b style="font-size:1.3vw">Nan Ye (叶楠)</b></div>
+
+				<br>
+				<div style="font-size:.8vw"> 
+					Lecturer (Statistics & Data Science) <br>
+					School of Mathematics and Physics<br>
+					University of Queensland<br>
+					<br>
+					<b>Office</b>:
+					Room 616, Building 69<br>
+					<b>Phone</b>: +61 (0)70 3346 9095<br>
+					<b>Email</b>: nan.ye AT uq DOT edu DOT AU<br>
+					<b>Address:</b>
+					St Lucia, QLD 4067, Australia
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu bar -->
+	<div style="width:100%; position: fixed; background-color:black; padding-top: 5px; padding-bottom: 5px">
+		<table style="width:61vw; margin: auto">
+			<tr>
+				<td align="center"><a class="menuitem about-button">About</a></td>
+				<td align="center"><a class="menuitem group-button">Group</a></td>
+				<td align="center"><a class="menuitem research-button">Research</a></td>
+				<td align="center"><a class="menuitem teaching-button">Teaching</a></td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Header -->
+	<!--div id=header align="center">
+
+		<br>
+		<br>
+
+		<table width="850px">
+			<tr>
+				<td valign=top>
+					<br>
+					<div><b><font size="4">Nan Ye (叶楠)</font></b></div>
+					<br>
+					<div class="info">
+						Lecturer (Statistics & Data Science) <br>
+						School of Mathematics and Physics<br>
+						University of Queensland<br>
+						<br>
+						<b>Office</b>:
+						Room 616, Building 69<br>
+						<b>Phone</b>: +61 (0)70 3346 9095<br>
+						<b>Email</b>: nan.ye AT uq DOT edu DOT AU<br>
+						<b>Address:</b>
+						St Lucia, QLD 4067, Australia
+						</div> 
+				</td>
+				<td align="right">
+					<img src="yn.jpg" height=190>
+				</td>
+			</tr>
+		</table>
+		<hr>
+	</div--!>
+
+	<div class=content style="background-color:white; border: 1px gray">
+		<div class="sectioncontent" id="about">
+			<br><br>
+			<div>
+			I am a Lecturer in Statistics and Data Science in the School of Mathematics and Physics in
+			University of Queensland.
+			I previously held postdoc positions at QUT and UC Berkeley from 2015 to
+			2018, and at NUS from 2013 to 2014. 
+			Before that, I earned my PhD in Computer Science from NUS, and completed
+			double first-class honors in Computer Science and Applied Mathematics, also from
+			NUS.
+			</div>
+			<br>
+
+			<div>
+			I am broadly interested in machine learning algorithms, theory, and applications.
+			I have published papers on topics including 
+			sequential decision making under uncertainty,
+			weakly supervised learning, 
+			probabilistic graphical models,
+			statistical learning theory, in venues such as NeurIPS, ICML, ICLR, UAI,
+			JAIR, JMLR.
+			I have received an IJCAI-JAIR Best Paper Prize in 2022, and a UAI Best Student
+			Paper Award in 2014.
+			</div>
+			<br>
+
+			<div>
+			I am seeking highly motivated students to work with me on machine learning
+			research.
+			If you are interested, please email me your CV/transcripts, a sample of
+			your writing, and a brief description of your research interests. 
+			</div>
+
+			<h3 class=sectiontitle>News</h3>
+			<ul>
+				<li>[29/11/2022] I will give a tutorial on machine learning for 
+				applied mathematicians in ANZIAM'23 [<a href="talks/anziam23/index.html">slides</a>].
+				<li>[28/11/2022] I am serving IJCAI'23 as an SPC member.
+				<li>[15/09/2022] Our paper on random forests for positive-unlabeled
+					learning is accepted by NeurIPS.
+				<li>[28/07/2022] Our paper <i>DESPOT: Online POMDP Planning with
+						Regularization</i> received the 2022 IJCAI-JAIR Best Paper Prize.
+				<li>[19/08/2022] We are organising a 
+					<a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/23328178/data/v1">Special
+						Issue of the Annals of Operations Research</a>
+						on Decision Making Under Uncertainty and calling for papers.
+				<li>[20/07/2022] I am serving as an organising committee member for 
+					<a href="https://smp.uq.edu.au/anziam-2023">ANZIAM'23</a>.
+				<li>[19/07/2022] I am serving AAAI'23 as an SPC member.
+				<li>[12/05/2022] We are organizing a 
+					<a href="https://dmuu2022.github.io/workshop_index.html">Workshop on
+						Decision Making under Uncertainty</a> and calling for participation.
+				<li>[22/04/2022] I am selected as a Highlighted Reviewer for ICLR'23.
+				<li>[01/04/2022] Our paper on solving continuous-action POMDPs is accepted by
+					WAFR.
+			</ul>
+		</div>
+
+		<div class="sectioncontent" id="group">
+			<h3 class=sectiontitle>Group members</h3>
+				<b>Current members</b>
+				<ul>
+					<li>Marcus Hoerger (Postdoc)
+					<li>Jun Ju (PhD)
+					<li>Yeming Lei (PhD)
+					<li>Jonathan Wilton (PhD)
+				</ul>
+
+				<b>Past members</b>
+				<ul>
+					<li><a href="https://graduate-school.uq.edu.au/profile/650/aaron">Aaron Snoswell</a> (PhD, 2022)</li>
+					<li> Tan Nguyen (PhD, 2020)</li>
+					<li> Piyush Patil (Masters, 2021)</li>
+					<li> Cameron Gordon (Masters, 2020)</li>
+					<li> Yuting Yang (Masters, 2020)</li>
+					<li> Yutong Chen (Masters, 2020)</li>
+					<li> Robert Wall (Masters, 2019)</li>
+					<li> David Evans (Masters, 2019)</li>
+					<li> Jacky Xie (Honours, 2022)</li>
+					<li> Montana Wickens (Honours, 2022)</li>
+					<li> David Maine (Honours, 2021)</li>
+					<li> Daniel Noar (Honours, 2020)</li>
+					<li> Scott Whittington (Honours, 2020)</li>
+					<li> Naziah Saddique (Honours, 2020)</li>
+					<li> Drew Mitchell (Honours, 2018)</li>
+				</ul>
+		</div>
+
+		<div class="sectioncontent" id="research">
+			<h3 class="sectiontitle">Software</h3>
+
+			<ul>
+				<li>
+					<a href="https://github.com/AdaCompNUS/despot">DESPOT</a> 
+					- Online solver for large POMDPs. 
+				</li>
+				<li>
+					<a href="https://github.com/aaronsnoswell/unimodal-irl">MaxEntIRL</a> 
+					- Maximum Entropy IRL.
+					</a>
+				<li>
+					<a href="https://github.com/jonathanwilton/PUExtraTrees">PUExtraTrees</a>
+					- Extra Trees for PU-learning.
+				</li>
+				<li>
+					<a href="https://github.com/nvcuong/HOSemiCRF">HOSemiCRF</a> 
+					- High-order Semi-Markov Conditional Random Field.
+					</a>
+				</li>
+			</ul>
+
+			<h3 class="sectiontitle">Publications</h3>
+			Please see my 
+			<a href="https://scholar.google.com/citations?user=5XCxGRIAAAAJ&hl=en">Google Scholar profile</a>
+			for the full list of my publications.
+			<ul style="font-size:11pt">
+				<li>
+				 <span class="paper">Positive-unlabeled learning using random forests via recursive greedy risk minimization.</span>
+				 <br>
+				 Jonathan Wilton, Abigail MY Koay, Ryan KL Ko, Miao Xu, and Nan Ye. 
+				 <br>
+				 In Advances In Neural Information Processing Systems, 2022
+				</li>
+				<li>
+					<span class="paper">Adaptive Discretization using Voronoi Trees for Continuous-Action POMDPs.</span>
+					<br>
+					Marcus Hoerger, Hanna Kurniawati, Dirk Kroese, and Nan Ye. 
+					<br>
+					In WAFR, 2022
+				</li>
+				<li> 
+					<span class="paper">Prior versus data: A new Bayesian method for fishery stock assessment.</span>
+					<br>
+					Yeming Lei, Shijie Zhou, and Nan Ye. 
+					<br>
+					In MODSIM, 2021
+				</li>
+				<li> 
+					<span class="paper">MOOR: Model-based Offline Reinforcement Learning for Sustainable Fishery Management.</span>
+					<br>
+					Jun Ju, Hanna Kurniawati, Dirk Kroese, and Nan Ye. 
+					<br>
+					In MODSIM, 2021
+				</li>
+				<li>
+					<span class="paper">Revisiting Maximum Entropy Inverse Reinforcement Learning: New Perspectives and Algorithms.  </span>
+					<br>
+					Aaron J. Snoswell, Surya P. N. Singh, and Nan Ye. 
+					<br>
+					In IEEE Symposium Series on Compu- tational Intelligence, 2020.
+				</li>
+				<li>
+					Greedy Convex Ensemble. 
+					<br>
+					Thanh Tan Nguyen, Nan Ye, and Peter Bartlett. 
+					<br>
+					In IJCAI, 2020.
+				</li>
+				<li> 
+					Discriminative particle filter reinforcement learning for complex partial observations. 
+					<br>
+					Xiao Ma, Peter Karkus, David Hsu, Wee Sun Lee, and Nan Ye. 
+					<br>
+					In ICLR, 2020.
+				</li>
+				<li>
+					Nesterov acceleration of alternating least squares for canonical tensor decomposition: Momentum step size selection and restart mechanisms. 
+					<br>
+					Drew Mitchell, Nan Ye, and Hans De Sterck. 
+					<br>
+					Numerical Linear Algebra with Applications, 2020.
+				</li>
+				<li> 
+					Reading Both Single and Multiple Digital Video Clocks Using Context-Aware Pixel Periodicity and Deep Learning. 
+					<br>
+					Xinguo Yu, Wu Song, Xiaopan Lyu, Bin He, and Nan Ye. 
+					<br>
+					International Journal of Digital Crime and Forensics (IJDCF), 12(2):21–39, 2020.
+				</li>
+				<li> 
+					POMDPs for sustainable fishery management. 
+					<br>
+					Jerzy A Filar, Zhihao Qiao, and Nan Ye. 
+					<br>
+					In International Congress on Modelling and Simulation, 2019.
+				</li>
+				<li>
+					A Framework for Solving Explicit Arithmetic Word Problems and Proving Plane Geometry Theorems. 
+					<br>
+					Xinguo Yu, Mingshu Wang, Wenbin Gan, Bin He, and Nan Ye.
+					<br>
+					International Journal of Pattern Recognition and Artificial Intelligence, page 1940005, 2018.
+					<br>
+				</li>
+				<li> 
+					Tensor Belief Propagation. 
+					<br>
+					Andrew Wrigley, Wee Sun Lee, and Nan Ye. 
+					<br>
+					In Proceedings of the International Conference on Machine Learning, 2017.
+				</li>
+				<li> 
+					<span class="paper">Modelling imperfect presence data obtained by citizen science. </span>
+					<br>
+					Kerrie Mengersen, Erin E. Peterson, Sam Clifford, Nan Ye, June Kim, Tomasz Bednarz, Ross Brown, Allan James, Julie Vercelloni, Alan R. Pearse, Jacqueline Davis, and Vanessa Hunter. 
+					<br>
+					Environmetrics, 2017.
+					<br>
+				</li>
+				<li>
+					<span class="paper">DESPOT: Online POMDP Planning with Regularization.</span>
+					<br>
+					Nan Ye, Adhiraj Somani, David Hsu, and Wee Sun Lee. 
+					<br>
+					Journal of Artificial Intelligence Research, 58:231–266, 2017.
+					<br>
+				</li>
+
+				<li>
+					<span class="paper">Optimization Methods for Inverse Problems.</span> 
+					<br>
+					Nan Ye, Farbod Roosta-Khorasani, and Tiangang Cui. 
+					<br>
+					In David R. Wood, Jan de Gier, Cheryl E. Praeger, and Terence Tao, editors, MATRIX Annals, volume 2. Springer, 2017
+					<br>
+				</li>
+
+				<li>
+					<span class="paper">Robustness of Bayesian Pool-based Active Learning Against Prior Misspecification.</span>
+					[<a class="pub" href=pub/cuong2016robustness.pdf>PDF</a>]
+					<br>
+					Nguyen Viet Cuong,
+					Nan Ye,
+					Wee Sun Lee.
+					<br>
+					AAAI 2016.
+				</li>
+
+				<li>
+					<span class="paper">Intention-Aware Online POMDP Planning for Autonomous Driving in a Crowd.</span>
+					[<a class="pub" href="pub/bai2015intention.pdf">PDF</a>]
+					<br>
+					Haoyu Bai,
+					Shaojun Cai,
+					Nan Ye,
+					David Hsu,
+					Wee Sun Lee.
+					<br>
+					ICRA 2015.
+				</li>
+
+				<li>
+					<span class="paper">Near-optimal Adaptive Pool-based Active Learning with General Loss.</span>
+					[<a class="pub" href="pub/cuong2014near.pdf">PDF</a>]
+					<br>
+					<b>Google Best Student Paper Award</b>
+					<br>
+					Nguyen Viet Cuong,
+					Wee Sun Lee,
+					Nan Ye. 
+					<br>
+					UAI 2014.
+				</li>
+
+				<li>
+					<span class="paper">Conditional Random Field with High-order Dependencies for Sequence
+						Labeling and Segmentation</span>.
+					[<a class="pub" href=pub/cuong2014conditional.pdf>PDF</a>]
+					[<a href="code/HOSemiCRF.zip">Code</a>]
+					<br>
+					Nguyen Viet Cuong,
+					Nan Ye,
+					Wee Sun Lee,
+					Hai Leong Chieu.
+					<br>
+					JMLR 15 (Mar):981−1009, 2014. 
+				</li>
+				<li>
+					<span class="paper">DESPOT: Online POMDP Planning with Regularization</span>.
+					[<a class="pub" href=pub/somani2013despot.pdf>PDF</a>]
+					[<a href=pub/somani2013despot-sup.pdf>Supplement</a>]
+					[<a href=http://bigbird.comp.nus.edu.sg/pmwiki/farm/appl/>Code</a>]
+					<br>
+					Adhiraj Somani, 
+					Nan Ye, 
+					David Hsu,
+					Wee Sun Lee. 
+					<br>
+					NIPS 2013. 
+				</li>
+
+				<li>
+					<span class="paper">Active Learning for Probabilistic Hypotheses Using the Maximum Gibbs Error Criterion</span>.
+					[<a class="pub" href=pub/cuong2013active.pdf>PDF</a>]
+					<br>
+					Nguyen Viet Cuong, 
+					Wee Sun Lee, 
+					Nan Ye,
+					Kian Ming A. Chai, 
+					and 
+					Hai Leong Chieu.
+					<br>
+					NIPS 2013.
+				</li>	
+
+				<li>
+					<span class="paper">Optimizing F-measures: A Tale of Two Approaches</span>.
+					[<a class="pub" href=pub/fscore-icml12/fscore.pdf>PDF</a>]
+					[<a href=pub/fscore-icml12/fscore-appendix.pdf>Supplement</a>]
+					[<a href=pub/fscore-icml12/fscore.zip>Code</a>]
+					<br>
+					Nan Ye, 
+					Kian Ming A. Chai, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~leews">Wee Sun Lee</a>, 
+					and 
+					<a class="author" href="http://www.comp.nus.edu.sg/~g0404406">Hai Leong Chieu</a>. 
+					<br>
+					ICML 2012.
+				</li>	
+
+				<li>
+					<span class="paper">Semi-Markov Conditional Random Field with High-Order Features</span>.
+					[<a class="pub" href="pub/crf-icmlw11.pdf">PDF</a>]
+					[<a href="https://github.com/nvcuong/HOSemiCRF">Code</a>]
+					<br>
+					Viet Cuong Nguyen, 
+					Nan Ye, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~leews">Wee Sun Lee</a>, 
+					and 
+					<a class="author" href="http://www.comp.nus.edu.sg/~g0404406">Hai Leong Chieu</a>.
+					<br>
+					ICML Workshop on Structured Sparsity: Learning and Inference, 2011.
+				</li>	
+
+				<li>
+					<span class="paper">Learning from Streams</span>.
+					[<a class="pub" href="pub/stream-alt09.pdf">PDF</a>]
+					<br>
+					<a class="author" href="http://www.comp.nus.edu.sg/~sanjay">Sanjay Jain</a>, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~fstephan">Frank Stephan</a>, 
+					and 
+					Nan Ye.
+					<br>
+					ALT 2009: 338-352.
+				</li>	
+
+				<li>
+					<span class="paper">Domain adaptive bootstrapping for named entity recognition</span>.
+					[<a class="pub" href="pub/adaptive-emnlp09.pdf">PDF</a>]
+					<br>
+					Dan Wu, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~leews">Wee Sun Lee</a>, 
+					Nan Ye 
+					and 
+					<a class="author" href="http://www.comp.nus.edu.sg/~g0404406">Hai Leong Chieu</a>.
+					<br>
+					EMNLP 2009: 1523-1532.
+				</li>	
+
+				<li>
+					<span class="paper">Conditional Random Fields with High-Order Features for Sequence Labeling</span>.
+					[<a class="pub" href="pub/crf-nips09.pdf">PDF</a>]
+					<br>
+					Nan Ye, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~leews">Wee Sun Lee</a>, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~g0404406">Hai Leong Chieu</a>
+					and
+					Dan Wu.
+					<br>
+					NIPS 2009: 2196-2204.
+				</li>
+
+				<li>
+					<span class="paper">Prescribed Learning of R.E. Classes</span>.
+					[<a class="pub" href="pub/represcribed-tcs09.pdf">PDF</a>]
+					<br>
+					<a class="author" href="http://www.comp.nus.edu.sg/~sanjay">Sanjay Jain</a>, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~fstephan">Frank Stephan</a>
+					and
+					Nan Ye.
+					<br>
+					Theoretical Compututer Science 410(19): 1796-1806 (2009).
+				</li>
+
+				<li>
+					<span class="paper">Prescribed Learning of Indexed Families</span>.
+					[<a class="pub" href="pub/prescribed-fi08.pdf">PDF</a>]<br>
+					<a class="author" href="http://www.comp.nus.edu.sg/~sanjay">Sanjay Jain</a>, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~fstephan">Frank Stephan</a>
+					and
+					Nan Ye.<br>
+					Fundamental Informatica 83(1-2): 159-175 (2008).<br>
+				</li>
+
+				<li>
+					<span class="paper">On Preprocessing and Antisymmetry in de novo Peptide Sequencing: Improving Efficiency and Accuracy</span>.
+					<br>
+					<a class="author" href="http://sourcedb.cas.cn/sourcedb_qibebt_cas/yw/zjrc/201008/t20100818_2925860.html">Kang Ning</a>, 
+					Nan Ye
+					and
+					<a class="author" href="http://www.comp.nus.edu.sg/~leonghw">Hon Wai Leong</a>.
+					<br>
+					Journal of Bioinformatics and Computational Biology 6(3): 467-492 (2008).
+				</li>	
+
+				<li>
+					<span class="paper">Prescribed Learning of R.E. Classes</span>.
+					[<a class="pub" href="pub/represcribed-alt07.pdf">PDF</a>]
+					<br>
+					<a class="author" href="http://www.comp.nus.edu.sg/~sanjay">Sanjay Jain</a>, 
+					<a class="author" href="http://www.comp.nus.edu.sg/~fstephan">Frank Stephan</a>
+					and
+					Nan Ye.
+					<br>
+					ALT 2007: 64-78.
+				</li>	
+			</ul>
+		</div> <!--end of research-->
+
+		<div class="sectioncontent" id="teaching">
+			<h3 class=sectiontitle>Teaching</h3>
+			<ul>
+				<li>
+					2022 Semester 1.
+					<span class="course">
+							STAT3007/7007 Deep Learning.
+					</span>
+				</li>
+				<li>
+					2022 Semester 1.
+					<span class="course">
+							STAT2201 Analysis of Engineering & Scientific Data.
+					</span>
+				</li>
+	
+				<li>
+					2021 Semester 2.
+					<span class="course">
+							STAT2201 Analysis of Engineering & Scientific Data.
+					</span>
+				</li>
+	
+				<li>
+					2021 Semester 2.
+					<span class="course">
+							DATA7703 Machine Learning for Data Scientists.
+					</span>
+				</li>
+	
+				<li>
+					2021 Semester 1.
+					<span class="course">
+							STAT3007/7007 Deep Learning.
+					</span>
+				</li>
+
+				<li>
+					2020 Semester 2.
+					<span class="course">
+							DATA7703 Machine Learning for Data Scientists.
+					</span>
+				</li>
+	
+				<li>
+					2020 Semester 2.
+					<span class="course">
+							STAT4402/7503 Advanced Statistics II (Deep Learning).
+					</span>
+				</li>
+	
+				<li>
+					2020 Semester 1.
+					<span class="course">
+							DATA7001 Introduction to Data Science.
+					</span>
+				</li>
+	
+	
+				<li>
+					2019 Semester 2.
+					<span class="course">
+						<a href="teach/stat4402/index.html">STAT4402/7503 Advanced Statistics II (Deep Learning).</a>
+					</span>
+				</li>
+				<li>
+					2019 Semester 2.
+					<span class="course">
+						STAT3500/7500 Problems & Applications in Modern Statistics.
+					</span>
+				</li>
+				<li>
+					2019 Semester 2.
+					<span class="course">
+						DATA7001 Introduction to Data Science.
+					</span>
+				</li>
+				<li>
+					2019 Semester 1.
+					<span class="course">
+						DATA7001 Introduction to Data Science.
+					</span>
+				</li>
+				<li>
+					2018 Semester 2.
+					<span class="course">
+						<a href="teach/stat3500/index.html">STAT3500/7500 Problems & Applications in Modern Statistics.</a>
+					</span>
+				</li>
+				<li>     
+					2015 Semester 1.
+					<span class="course">MXB361 Aspects of Computational Science.</span> 
+				</li>
+		</div>
+
+		<br>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"> </script>
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" type="text/javascript"></script>
+
+		<script>
+			/**
+			* Select a page to display
+			*/
+
+			/* select page function */
+			var selectPage = function(page_id) {
+				$('.sectioncontent').hide();
+				$('#' + page_id).show();
+				sessionStorage.setItem('page_id', page_id)
+			};
+
+			/* Set click behavior */
+			$('.about-button').click(selectPage.bind(null, "about"));
+			$('.group-button').click(selectPage.bind(null, "group"));
+			$('.research-button').click(selectPage.bind(null, "research"));
+			$('.teaching-button').click(selectPage.bind(null, "teaching"));
+
+			/* Set onload behavior */
+			if (!sessionStorage.getItem('page_id')) {
+				selectPage("about");
+				//document.body.addEventListener("load", $('#about').show());
+			} else {
+				selectPage(sessionStorage.getItem('page_id'));
+				//document.body.addEventListener("load", $('#' + sessionStorage.getItem('page_id')).show());
+			}
+		</script>
+</body>
+</html>

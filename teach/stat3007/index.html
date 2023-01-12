@@ -1,0 +1,479 @@
+<html>
+<meta name="description" content="STAT3007/STAT7007">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="STAT3007, machine learning, theory and applications">
+
+<head>
+<style>
+	.course_title {
+		color: brown;
+		text-align: center;
+	}
+	.body {
+		margin-left: 15%;
+		margin-right: 25%;
+	}
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+	tr {
+		border-top: 2px solid #ccc;
+		border-bottom: 2px solid #ccc;
+	}
+	th, td {
+		padding-top: 0.2em;
+		padding-bottom: 0.5em;
+	}
+	th {
+		text-align: left;
+		#color: brown;
+		#background-color: orange;
+		#background-color: #AAAAEE;
+		#background-color: #EEEECC;
+		background-color: #DDDDEE;
+	}
+	td:first-child {
+		font-weight:bold
+	}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125717656-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125717656-1');
+</script>
+
+<title>STAT3007/STAT7007 Deep Learning</title>
+</head>
+
+<!--body class='body' style='font-family:"Comic Sans MS"'-->
+<body class='body'>
+	<H1 class="course_title">STAT3007/STAT7007 Deep Learning</H1>
+	<H3 style="text-align:center">Semester 1 2021</H3>
+	<b>Lecturer: <a href="../../index.html">Nan Ye</a></b><br>
+	<p>
+	<b>Course Description:</b> 
+	Deep learning has become a much sought-after game-changing technology that has enabled breakthroughs in applications such as intelligent virtual assistants, medical diagnosis, recommender systems, and autonomous driving. This course provides a comprehensive and rigorous coverage of deep learning from both applied and theoretical perspectives. Students taking this course will understand how, why and when the algorithms work, and be able to effectively apply deep learning methods to practical problems. This course begins with the basics of machine learning, followed by a broad coverage of deep neural networks, including some major deep neural network architectures, optimization of network parameters, and applications in classification, regression and reinforcement learning. This course is suitable for both students who want to build data-driven enabling applications with deep learning, and students who want to develop a solid foundation for doing research in deep learning in particular, and machine learning or artificial intelligence more broadly. To maximise the learning outcomes, students are expected to have a solid foundation in statistics, calculus, linear algebra, and programming. Python will be used for this course.
+	</p>
+	<p>
+		This course is for advanced undergraduate and graduate students.
+	</p>
+	<br>
+
+	<H2>Schedule</H2>
+	<table> 
+		<col width=17% style="color:blue; text-align:center">
+		<col width=30%>
+		<col width=30%>
+		<tr>
+			<th>Event</th>
+			<th>Date</th>
+			<th>Description</th>
+			<th>Materials</th>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+		</tr>
+		<tr><td align=center colspan=2>Week 1</td></tr>
+		<tr>
+			<td>Lecture 1</td>
+			<td>22 Jan 2022</td>
+			<td>Introduction</td>
+			<td><a href="notes/01-intro.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 2</td>
+			<td>24 Jan 2022</td>
+			<td>Regression</td>
+			<td><a href="notes/02-regression.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 3</td>
+			<td>25 Jan 2022</td>
+			<td>Classification</td>
+			<td><a href="notes/03-classification.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 1</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial01.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 1</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac01.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 2</td></tr>
+		<tr>
+			<td>Lecture 4</td>
+			<td>08 Mar 2022</td>
+			<td>Principal Component Analysis</td>
+			<td><a href="notes/04-pca.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 5</td>
+			<td>10 Mar 2022</td>
+			<td>Statistical Learning Theory</td>
+			<td><a href="notes/05-theory.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 6</td>
+			<td>11 Mar 2022</td>
+			<td>Model Selection</td>
+			<td><a href="notes/06-selection.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 2</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial02.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 2</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac02.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 3</td></tr>
+		<tr>
+			<td>Lecture 7</td>
+			<td>15 Mar 2022</td>
+			<td>Perceptrons</td>
+			<td><a href="notes/07-perceptron.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 8</td>
+			<td>17 Mar 2022</td!>
+			<td>Adaline</td>
+			<td><a href="notes/08-adaline.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 9</td>
+			<td>18 Mar 2022</td>
+			<td>Hopfield Networks</td>
+			<td><a href="notes/09-hopfield-handwritten.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 3</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial03.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 3</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac03.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 4</td></tr>
+		<tr>
+			<td>Lecture 10</td>
+			<td>22 Mar 2022</td>
+			<td>Gradient-based Learning</td>
+			<td><a href="notes/10-grad.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 11</td>
+			<td>24 Mar 2022</td>
+			<td>Multilayer Perceptron</td>
+			<td><a href="notes/11-mlp.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 12</td>
+			<td>25 Mar 2022</td>
+			<td>Deep Learning Software</td>
+			<td><a href="notes/12-software.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 4</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial04.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 4</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac04.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 5</td></tr>
+		<tr>
+			<td>Lecture 13</td>
+			<td>29 Mar 2022</td>
+			<td>Convolutional Neural Nets</td>
+			<td><a href="notes/13-cnn1.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 14</td>
+			<td>31 Mar 2022</td>
+			<td>Convolutional Neural Nets (cont.)</td>
+			<td><a href="notes/14-cnn2.pdf">slides</a></td>
+		<tr>
+			<td>Lecture 15</td>
+			<td>1 Apr 2022</td!>
+			<td>Convolutional Neural Nets (cont.)</td>
+			<td><a href="notes/15-cnn3.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 5</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial05.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 5</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac05.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 6</td></tr>
+		<tr>
+			<td>Lecture 16</td>
+			<td>5 Apr 2022</td>
+			<td>Recurrent Neural Nets </td>
+			<td><a href="notes/16-rnn1.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 17</td>
+			<td>7 Apr 2022</td>
+			<td>Recurrent Neural Nets (cont.)</td>
+			<td><a href="notes/17-rnn2.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 18</td>
+			<td>8 Apr 2022</td>
+			<td>Recurrent Neural Nets (cont.)</td>
+			<td><a href="notes/18-rnn3.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 6</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial06.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 6</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac06.html">questions</a></td>
+		</tr>
+
+
+		<tr><td align=center colspan=2>Week 7</td></tr>
+		<tr>
+			<td>Lecture 19</td>
+			<td>12 Apr 2022</td>
+			<td>Numerical Optimization</td>
+			<td><a href="notes/19-opt.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 20</td>
+			<td>14 Apr 2022</td>
+			<td>Initialization and Input Transformation</td>
+			<td><a href="notes/20-init.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 7</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial07.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 7</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac07.html">questions</a></td>
+		</tr>
+
+
+		<tr><td align=center colspan=2>Week 8</td></tr>
+		<tr>
+			<td>Lecture 21</td>
+			<td>26 Apr 2022</td>
+			<td>Normalization</td>
+			<td><a href="notes/21-norm.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 22</td>
+			<td>28 Apr 2022</td>
+			<td>Adaptive Learning Rates</td>
+			<td><a href="notes/22-adaptive.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 23</td>
+			<td>29 Apr 2022</td>
+			<td>Improving Generalization</td>
+			<td><a href="notes/23-reg.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 8</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial08.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 8</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac08.html">questions</a></td>
+		</tr>
+
+
+		<tr><td align=center colspan=2>Week 9</td></tr>
+		<tr>
+			<td>Lecture 24</td>
+			<td>5 May 2022</td>
+			<td>Adversarial Learning</td>
+			<td><a href="notes/24-adv.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 25</td>
+			<td>6 May 2022</td>
+			<td>Activation functions</td>
+			<td><a href="notes/25-activation.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 9</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial09.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 9</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac09.html">questions</a></td>
+		</tr>
+
+
+		<tr><td align=center colspan=2>Week 10</td></tr>
+		<tr>
+			<td>Lecture 26</td>
+			<td>10 May 2022</td>
+			<td>Residual Networks</td>
+			<td><a href="notes/26-resnet.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 27</td>
+			<td>12 May 2022</td>
+			<td>Attention</td>
+			<td><a href="notes/27-attention.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 28</td>
+			<td>13 May 2022</td>
+			<td>Autoencoders</td>
+			<td><a href="notes/28-ae.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 10</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial10.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 10</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac10.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 11</td></tr>
+		<tr>
+			<td>Lecture 29</td>
+			<td>17 May 2022</td>
+			<td>Variational Autoencoders</td>
+			<td><a href="notes/29-vae.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 30</td>
+			<td>19 May 2022</td>
+			<td>Generative Adversarial Networks</td>
+			<td><a href="notes/30-gan.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 31</td>
+			<td>20 May 2022</td>
+			<td>Reinforcement Learning</td>
+			<td><a href="notes/31-rl1.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 11</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial11.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 11</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac11.html">questions</a></td>
+		</tr>
+
+
+		<tr><td align=center colspan=2>Week 12</td></tr>
+		<tr>
+			<td>Lecture 32</td>
+			<td>24 May 2022</td>
+			<td>Reinforcement Learning (cont.)</td>
+			<td><a href="notes/32-rl2.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 33</td>
+			<td>26 May 2022</td>
+			<td>Reinforcement Learning (cont.)</td>
+			<td><a href="notes/32-rl2.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 34</td>
+			<td>27 May 2022</td>
+			<td>Review</td>
+			<td><a href="notes/33-review.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 12</td>
+			<td></td>
+			<td></td>
+			<td><a href="tutorials/tutorial12.pdf">questions</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Prac 12</td>
+			<td></td>
+			<td></td>
+			<td><a href="pracs/prac12.html">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=2>Week 13</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>31 May 2022</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>02 Jun 2022</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>03 Jun 2022</td>
+			<td></td>
+			<td></td>
+		</tr>
+	<table>
+</body>
+</html>

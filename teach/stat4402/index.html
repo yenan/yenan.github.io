@@ -1,0 +1,499 @@
+<html>
+<meta name="description" content="STAT4402/STAT7503">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="STAT4402, machine learning, theory and applications">
+
+<head>
+<style>
+	.course_title {
+		color: brown;
+		text-align: center;
+	}
+	.body {
+		margin-left: 15%;
+		margin-right: 25%;
+	}
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+	tr {
+		border-top: 2px solid #ccc;
+		border-bottom: 2px solid #ccc;
+	}
+	th, td {
+		padding-top: 0.2em;
+		padding-bottom: 0.5em;
+	}
+	th {
+		text-align: left;
+		#color: brown;
+		#background-color: orange;
+		#background-color: #AAAAEE;
+		#background-color: #EEEECC;
+		background-color: #DDDDEE;
+	}
+	td:first-child {
+		font-weight:bold
+	}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125717656-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125717656-1');
+</script>
+
+<title>STAT4402/STAT7503 Advanced Statistics II (Deep Learning)</title>
+</head>
+
+<!--body class='body' style='font-family:"Comic Sans MS"'-->
+<body class='body'>
+	<H1 class="course_title">STAT4402/STAT7503 Advanced Statistics II</H1>
+	<H1 class="course_title">Deep Learning</H1>
+	<H3 style="text-align:center">Semester 2 2019</H3>
+	<b>Lecturer: <a href="../../index.html">Nan Ye</a></b><br>
+	<b>Lecture Time & Location:</b> Mon 11a-12pm @ 08-212, Wed 9-10am @ 14-116, Thu 1-2pm @ 83-C415 <br>
+	<b>Tutorial Time & Location:</b> Fri 12pm-1pm @ 47A-241
+	<p>
+	Deep learning, a major sub-field of machine learning, has recently been
+	applied to solve many real world problems. 
+	This course gives the students the basic ideas and intuition behind deep
+	learning. 
+	Students taking this course will understand how, why and when the algorithms
+	work, and be able to effectively apply deep learning methods to practical
+	problems.
+	This course begins with basics of machine learning, followed by a broad
+	coverage on deep neural networks, including some major deep neural network
+	architectures, optimization of network parameters, and applications in
+	classification, regression and reinforcement learning. 
+	Python will be used for this course.
+	</p>
+	<p>
+		This course is for advanced undergraduate and graduate students.
+	</p>
+	<br>
+
+	<table> 
+		<col width=17% style="color:blue; text-align:center">
+		<col width=20%>
+		<col width=50%>
+		<tr>
+			<th>Event</th>
+			<th>Date</th>
+			<th>Description</th>
+			<th>Materials</th>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+		</tr>
+		<tr><td align=center colspan=3>Week 1</td></tr>
+		<tr>
+			<td>Lecture 1</td>
+			<td>22 Jul 2019</td>
+			<td>Introduction</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=01-intro.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 2</td>
+			<td>24 Jul 2019</td>
+			<td>Regression</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=02-regression.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 3</td>
+			<td>25 Jul 2019</td>
+			<td>Classification</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=03-classification.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 1</td>
+			<td></td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial01.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 2</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 1 out</td>
+			<td>2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 4</td>
+			<td>29 Jul 2019</td>
+			<td>Principal Component Analysis</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=04-pca.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 5</td>
+			<td>31 Jul 2019</td>
+			<td>Statistical Learning Theory</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=05-theory.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 6</td>
+			<td>1 Aug 2019</td>
+			<td>Model Selection</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=06-selection.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 2</td>
+			<td>2 Aug 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial02.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 3</td></tr>
+		<tr>
+			<td>Lecture 7</td>
+			<td>5 Aug 2019</td>
+			<td>Perceptrons</td>
+			<td><a
+					href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=07-perceptron.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 8</td>
+			<td>7 Aug 2019</td>
+			<td>Adaline</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=08-adaline.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 9</td>
+			<td>8 Aug 2019</td>
+			<td>Hopfield Networks</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=09-hopfield-handwritten.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td></td>
+			<td>9 Aug 2019</td>
+			<td>programming crash course</td>
+			<td></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 4</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 1 due</td>
+			<td>12 Aug 2019</td>
+			<td>submit on Blackboard by 11am</td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 2 out</td>
+			<td>12 Aug 2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 10</td>
+			<td>12 Aug 2019</td>
+			<td>Gradient-based Learning</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=10-grad.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 11</td>
+			<td>15 Aug 2019</td>
+			<td>Multilayer Perceptron</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=11-mlp.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 3</td>
+			<td>16 Aug 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial03.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 5</td></tr>
+		<tr>
+			<td>Lecture 12</td>
+			<td>19 Aug 2019</td>
+			<td>Deep Learning Software</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=12-software.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial paper out</td>
+			<td>19 Aug 2019</td>
+			<td>task sheet released</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 13</td>
+			<td>21 Aug 2019</td>
+			<td>Deep Learning Software (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=12-software.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 14</td>
+			<td>22 Aug 2019</td>
+			<td>Convolutional Neural Nets</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=13-cnn1.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 4</td>
+			<td>23 Aug 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial04.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 6</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 2 due</td>
+			<td>26 Aug 2019</td>
+			<td>submit on Blackboard by 11am</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 15</td>
+			<td>26 Aug 2019</td>
+			<td>Convolutional Neural Nets (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=14-cnn2.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 16</td>
+			<td>28 Aug 2019</td>
+			<td>Convolutional Neural Nets (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=14-cnn2.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 17</td>
+			<td>29 Aug 2019</td>
+			<td>Recurrent Neural Nets</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=15-rnn1.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 5</td>
+			<td>30 Aug 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial05-06.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 7</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 3 out</td>
+			<td>2 Sep 2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project proposal due</td>
+			<td>2 Sep 2019</td>
+			<td>submit on Blackboard by 5pm</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 18</td>
+			<td>2 Sep 2019</td>
+			<td>Recurrent Neural Nets (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=16-rnn2.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 19</td>
+			<td>4 Sep 2019</td>
+			<td>Recurrent Neural Nets (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=16-rnn2.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 20</td>
+			<td>5 Sep 2019</td>
+			<td>Numerical Optimization</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=17-opt.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 6</td>
+			<td>6 Sep 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial05-06.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 8</td></tr>
+		<tr>
+			<td>Lecture 21</td>
+			<td>9 Sep 2019</td>
+			<td>Numerical Optimization (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=17-opt.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 22</td>
+			<td>11 Sep 2019</td>
+			<td>Initialization and Input Transformation</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=18-init.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Batch Normalization</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=19-norm.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 23</td>
+			<td>12 Sep 2019</td>
+			<td>Adaptive Learning Rates</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=20-adaptive.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 7</td>
+			<td>13 Sep 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial07.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 9</td></tr>
+		<tr>
+			<td>Lecture 24</td>
+			<td>16 Sep 2019</td>
+			<td>Improving Generalization</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=21-reg.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 25</td>
+			<td>18 Sep 2019</td>
+			<td>Adversarial Learning</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=22-adv.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Assignment 3 due</td>
+			<td>2 Sep 2019</td>
+			<td>submit on Blackboard by 5pm</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lecture 26</td>
+			<td>19 Sep 2019</td>
+			<td>Activation functions</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=23-activation.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 8</td>
+			<td>20 Sep 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial08.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 10</td></tr>
+		<tr>
+			<td>Lecture 27</td>
+			<td>23 Sep 2019</td>
+			<td>Residual Networks</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=24-resnet.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 28</td>
+			<td>25 Sep 2019</td>
+			<td>Attention</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=25-attention.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 29</td>
+			<td>26 Sep 2019</td>
+			<td>Autoencoders</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=26-ae.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 9</td>
+			<td>27 Sep 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial09.pdf">questions</a></td>
+		</tr>
+
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial paper due</td>
+			<td>1 Oct 2019</td>
+			<td>submit on Blackboard by 5pm</td>
+			<td></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 11</td></tr>
+		<tr>
+			<td>Lecture 30</td>
+			<td>9 Oct 2019</td>
+			<td>Variational Autoencoders</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=27-vae.pdf">slides</a></td>
+		</tr>
+		<tr>
+			<td>Lecture 31</td>
+			<td>10 Oct 2019</td>
+			<td>Generative Adversarial Networks</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=28-gan.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 10</td>
+			<td>21 Oct 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial10.pdf">questions</a></td>
+		</tr>
+
+		<tr><td align=center colspan=3>Week 12</td></tr>
+		<tr>
+			<td>Lecture 32</td>
+			<td>14 Oc 2019</td>
+			<td>Reinforcement Learning</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=29-rl1.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 33</td>
+			<td>16 Oct 2019</td>
+			<td>Reinforcement Learning (cont.)</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=30-rl2.pdf">slides</a></td>
+		</tr>
+
+		<tr>
+			<td>Lecture 34</td>
+			<td>17 Oct 2019</td>
+			<td>Review</td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=31-review.pdf">slides</a></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Tutorial 11</td>
+			<td>18 Oct 2019</td>
+			<td></td>
+			<td><a href="https://www.dropbox.com/sh/4f3dn9i3606lzy4/AAA1DuHUqb1TWhoj32mZ2vo6a?dl=0&preview=tutorial11.pdf">questions</a></td>
+		</tr>
+		
+		<tr><td align=center colspan=3>Week 13</td></tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>21 Oct 2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>23 Oct 2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr bgcolor='#EEEEEE'>
+			<td>Project seminars</td>
+			<td>24 Oct 2019</td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr bgcolor='#EEEEEE'>
+			<td>Project report due</td>
+			<td>31 Oct 2019</td>
+			<td>submit on Blackbord by 5pm</td>
+			<td></td>
+		</tr>
+
+		<tr bgcolor='#EEEEEE'>
+			<td>Reflective essay due</td>
+			<td>2 Nov 2019</td>
+			<td>submit on Blackboard by 5pm</td>
+			<td></td>
+		</tr>
+	<table>
+</body>
+</html>
